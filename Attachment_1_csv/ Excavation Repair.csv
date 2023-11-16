@@ -1,0 +1,87 @@
+表格 1
+Excavation/Repair,Re-inspect Plan Info,Planned start date for excavation,date,,
+,,Planned completion date of excavation,date,,
+,,Planned completion date of testing,date,,
+,,Planned date for completion of test results assessment,date,,
+,,Reason for not digging,object,,
+,Excavation Info,Reason for excavation,object,,
+,,Province,object,,
+,,administrative location,object,,
+,,Excavation_Coordinate System,object,,
+,,Excavation_Pipe top elevation (M),float64,1516.036,410.8
+,,Excavation_elevation datum,object,,
+,,Actual travel reference point,object,,
+,,Actual distance relative to upstream reference point (M),float64,+1165.244,+487.722
+,,Excavation start date,date,,
+,,Excavation unit,object,,
+,,Excavation unit manager,object,,
+,,Excavation supervision unit,object,,
+,,Excavation_Side station supervision,object,,
+,,Excavation_Operating Unit Supervisor,object,,
+,,Date of completion of excavation,date,,
+,,Pipe body weld number after excavation,object,,
+,,terrain,object,plain,plain
+,,Is there any undulations in the terrain?,object,none,none
+,,ground cover,object,crops,crops
+,,Surroundings,object,farmland,farmland
+,,Completion data burial depth/meter,float64,,
+,,Actual burial depth/meter,float64,1.5,2.3
+,,Soil quality of pipe ditch,object,loess,loess
+,,Are there obvious changes in soil quality upstream and downstream?,object,no,no
+,,Are there any hydraulic protection measures?,object,no,no
+,,Structural form of hydraulic protection measures,object,,
+,,Is the pipe trench backfilled tightly?,object,yes,yes
+,,Hanging length of pipe without backfilling/m,float64,0,0
+,,"Are there any boulders, rocks, etc. that exceed the standard (particle size >250MM) in the backfill soil?",object,no,no
+,,The largest particle size of boulders and rocks in backfill soil (mm),float64,100,3
+,,Description of other non-standard situations,object,,
+,Weld Seam,Investigation time,date,,
+,,Soil type,object,loess,loess
+,,Groundwater situation,object,There is no groundwater around the pipeline,There is no groundwater around the pipeline
+,,Joint type,object,Heat shrink tape,Heat shrink tape
+,,Appearance of patching - whether there is any damage,object,none,none
+,,Appearance of patching - whether there are wrinkles,object,none,none
+,,Appearance of patching - whether there is warping or not,object,none,none
+,,Appearance of patching - whether there are bubbles,object,none,none
+,,Appearance of patching - whether there is hollow bulge,object,none,none
+,,Appearance of the patch - whether the glue overflow at the edge is even,object,yes,yes
+,,Appearance of patching - 15kV spark leak detection,float64,15,15
+,,Width of upstream overlap area (cm),float64,12,20
+,,Downstream overlap zone width (cm),float64,12,20
+,,3-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,11,40
+,,9-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,10,40
+,,12-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,20,50
+,,Peel strength of 3-point pipe body area (N/cm),float64,15,40
+,,Peel strength of pipe body area at 9 points (N/cm),float64,10,50
+,,Peel strength of pipe body area at 12 points (N/cm),float64,20,45
+,,Is there primer in the overlap area?,object,have,none
+,,Is there any floating rust on the pipe body?,object,have,have
+,,Cathodic protection potential (VCSE),float64,1.9,-1.24
+,Re-inspection_Appearance,Upstream steel pipe wall thickness MM,float64,22,18.4
+,,Downstream steel pipe wall thickness MM,float64,22,18.4
+,,Upstream pipemaking weld type,object,Straight weld,spiral weld
+,,Downstream pipemaking weld types,object,Straight weld,spiral weld
+,,Spacing between weld intersection points MM,float64,870,1073
+,,Are the spiral welds of upstream and downstream steel pipes parallel?,object,yes,no
+,,Yugao situation,object, Yugao situation: 1:00-0.8 2:00-1.2 3:00-1.5 4:00-1.2 5:00-3 6:00-2 7:00-2 8:00-1.2 9:00-1.8 10 :00-1 11:00-1.2 12:00-1.2,Yugao situation: 1:00-1.6 2:00-1.2 3:00-1.4 4:00-1.2 5:00-1.4 6:00-1.2 7:00-1.2 8:00-0.9 9:00-1.2 10 :00-0.8 11:00-0.9 12:00-1.2
+,,Maximum reinforcement height MM,float64,3,1.6
+,,Wrong side situation,object, Wrong variables: 1:00-0.2 2:00-0 3:00-0 4:00-0 5:00-0.8 6:00-0.2 7:00-0 8:00-0 9:00-0.5 10: 00-0.2 11:00--0.5 12:00-0.2, Wrong variables: 1:00-0.8 2:00-0.7 3:00-1 4:00-0.6 5:00-0.7 6:00-0.6 7:00-0.7 8:00-0.6 9:00-0.8 10: 00-0.6 11:00-0.7 12:00-0.8
+,,Maximum wrong side MM,float64,0.8,1
+,,Detailed description of appearance defects,object,qualified,qualified
+,,Appearance re-inspection_whether it is qualified,object,qualified,qualified
+,,Appearance re-inspection_Welding joint defect types,object,none,none
+,Repair Info,Determine the fix,object,,
+,,repair unit,object,,
+,,Restoration unit manager,object,,
+,,Restoration supervision unit,object,,
+,,Repair_Side station supervision,object,,
+,,Repair_Operating Unit Supervisor,object,,
+,,Repair date,date,,
+,,Repair status,object,,
+,,New weld number,object,,
+,Backfill Info,backfill date,date,,
+,Elevation Depth,X,float64,3946677.94,106.881374
+,,Y,float64,398856.0387,35.647492
+,,ground elevation,float64,1517.5356,414.2
+,,Pipe top elevation,float64,1515.3356,410.8
+,,Pipe top burial depth (m),float64,2.2,3.4

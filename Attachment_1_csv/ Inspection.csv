@@ -1,0 +1,156 @@
+表格 1
+Inspection,Re-inspection_Radiation,Radiographic re-examination_Testing unit,object,,
+,,Radiographic re-inspection_inspection personnel,object,,
+,,Radiographic re-examination_test date,date,,
+,,Radiographic re-examination_One transillumination length MM,float64,766,766
+,,Radiographic reexamination_Image quality index,float64,10,11
+,,Radiographic re-examination_evaluation standards,object,,
+,,Film evaluation date,date,,
+,,Radiographic re-examination_assessment unit,object,,
+,,Radiographic reexamination_evaluator,object,,
+,,Radiographic re-examination_assessment results,object," Defect 1: 1730mm, missing strip, 3mm, Ⅱ Defect 2: 2500-2900mm, concave, 400mm, Ⅱ. . . Defect 26: 1350mm, round defect, 1 point mm, Ⅰ"," Defect 1: 135mm, round missing, 13mm, Ⅲ Defect 2: 2350mm, round missing, 11mm, Ⅲ. . . Defect 37: 3790mm, round defect, 2mm, Ⅰ"
+,,Radiographic re-examination_assessment level,object,Ⅱ,Ⅲ
+,,Radiographic re-examination_whether it is qualified,object,qualified,Unqualified
+,,Radiographic re-examination_recommended treatment measures,object,,
+,,Radiographic re-inspection_Welding joint defect types,object,missing items,round and missing
+,,Radiographic re-inspection_position of welding joint defect 1,object,1570,135mm
+,,Radiographic re-inspection_length of welding joint defect 1 (mm),float64,3mm,13
+,,Radiographic re-inspection_Welding joint defect type 2,object,missing items,round and missing
+,,Radiographic re-inspection_position of welding joint defect 2,object,1730,2350mm
+,,Radiographic re-inspection_length of welding joint defect 2 (mm),float64,3mm,11
+,,Radiographic re-inspection_Welding joint defect type 3,object,round and missing,round and missing
+,,Radiographic re-inspection_position of welding joint defect 3,object,1000,990mm
+,,Radiographic re-inspection_length of welding joint defect 3 (mm),float64,6 o'clock,5
+,Re-inspection_Ultrasound,Ultrasound re-examination_Testing unit,object,,
+,,Ultrasound re-examination_testing personnel,object,,
+,,Ultrasound re-examination_test date,date,,
+,,Ultrasound re-examination_testing length,float64,3828,3828
+,,Ultrasound re-examination_evaluation standards,object,SY/T4109-2020,SY/T4109-2020
+,,Ultrasound re-examination_Test result evaluation date,date,,
+,,Ultrasound re-examination_assessment unit,object,,
+,,Ultrasound re-examination_evaluator,object,,
+,,Ultrasound re-examination_assessment results,object," Defect 1: .mm, no recordable defect, .mm, .mm, .SL+_dB, Ⅰ"," Defect 1: None, no record defects, none, none, none, Ⅰ"
+,,Ultrasound re-examination_assessment level,object,Ⅰ,Ⅰ
+,,Ultrasound re-examination_whether it is qualified,object,qualified,qualified
+,,Ultrasound re-examination_recommended treatment measures,object,,
+,,Ultrasonic re-inspection_Welding joint defect types,object,No record deficiencies,No record deficiencies
+,,Ultrasonic re-inspection_position of welding joint defect 1,object,.,
+,,Ultrasonic re-inspection_length of welding joint defect 1 (mm),float64,.,
+,,Ultrasonic re-inspection_height of welding joint defect 1 (mm),float64,,
+,,Ultrasonic re-inspection_Depth of welding joint defect 1 (mm),float64,.,
+,,Ultrasonic re-inspection_Welding joint defect type 2,object,,
+,,Ultrasonic re-inspection_position of welding joint defect 2,object,,
+,,Ultrasonic re-inspection_length of welding joint defect 2 (mm),float64,,
+,,Ultrasonic re-inspection_height of welding joint defect 2 (mm),float64,,
+,,Ultrasonic re-inspection_Depth of welding joint defect 2 (mm),float64,,
+,,Ultrasonic re-inspection_Welding joint defect type 3,object,,
+,,Ultrasonic re-inspection_position of welding joint defect 3,object,,
+,,Ultrasonic re-inspection_length of welding joint defect 3 (mm),float64,,
+,,Ultrasonic re-inspection_height of welding joint defect 3 (mm),float64,,
+,,Ultrasonic re-inspection_Depth of welding joint defect 3 (mm),float64,,
+,Re-inspection TOFD,TOFD re-inspection_Testing unit,object,,
+,,TOFD re-inspection_inspection personnel,object,,
+,,TOFD re-inspection_test date,date,,
+,,TOFD re-inspection_detection length,object,,
+,,TOFD re-inspection_evaluation standards,object,,
+,,TOFD re-inspection_Test result evaluation date,date,,
+,,TOFD re-inspection_assessment unit,object,,
+,,TOFD re-inspection_evaluator,object,,
+,,TOFD re-inspection_assessment results,object,No documented defects,No documented defects
+,,TOFD re-inspection_assessment level,object,Ⅰ,Ⅰ
+,,TOFD re-inspection_whether it is qualified,object,qualified,qualified
+,,TOFD re-inspection_recommended disposal measures,object,,
+,,TOFD re-inspection_Welding joint defect type,object,,
+,,TOFD re-inspection_position of welding joint defect 1,object,,
+,,TOFD re-inspection_length of welding joint defect 1 (mm),float64,,
+,,TOFD re-inspection_height of welding joint defect 1 (mm),float64,,
+,,TOFD re-inspection_depth of welding joint defect 1 (mm),float64,,
+,,TOFD re-inspection_Welding joint defect type 2,object,,
+,,TOFD re-inspection_position of welding joint defect 2,object,,
+,,TOFD re-inspection_length of welding joint defect 2 (mm),float64,,
+,,TOFD re-inspection_height of welding joint defect 2 (mm),float64,,
+,,TOFD re-inspection_depth of welding joint defect 2 (mm),float64,,
+,,TOFD re-inspection_Welding joint defect type 3,object,,
+,,TOFD re-inspection_position of welding joint defect 3,object,,
+,,TOFD re-inspection_length of welding joint defect 3 (mm),float64,,
+,,TOFD re-inspection_height of welding joint defect 3 (mm),float64,,
+,,TOFD re-inspection_depth of welding joint defect 3 (mm),float64,,
+,Re-inspection Phased Array,Phased Array_Detection Unit,object,,
+,,Phased Array_Inspection Personnel,object,,
+,,Phased Array_Detection Date,date,,
+,,Phased array_detection length,object,,
+,,Phased Array_Evaluation Standard,object,,
+,,Phased Array_Test result evaluation date,date,,
+,,Phased Array_Assessment Unit,object,,
+,,Phased Array_Evaluator,object,,
+,,Phased array_evaluation results,object,No documented defects,No documented defects
+,,Phased Array_Assessment Level,object,Ⅰ,Ⅰ
+,,Phased Array_Is it qualified?,object,qualified,qualified
+,,Phased Array_Recommended Disposal Measures,object,,
+,,Phased Array_Welding Joint Defect Type,object,,
+,,Phased array_position of welding joint defect 1,object,,
+,,Phased array_length of welding joint defect 1 (mm),float64,,
+,,Phased array_height of welding joint defect 1 (mm),float64,,
+,,Phased array_Depth of welding joint defect 1 (mm),float64,,
+,,Phased Array_Welding Joint Defect Type 2,object,,
+,,Phased array_position of welding joint defect 2,object,,
+,,Phased array_length of welding joint defect 2 (mm),float64,,
+,,Phased array_height of welding joint defect 2 (mm),float64,,
+,,Phased array_Depth of welding joint defect 2 (mm),float64,,
+,,Phased Array_Welding Joint Defect Type 3,object,,
+,,Phased array_position of welding joint defect 3,object,,
+,,Phased array_length of welding joint defect 3 (mm),float64,,
+,,Phased array_Height of welding joint defect 3 (mm),float64,,
+,,Phased array_Depth of welding joint defect 3 (mm),float64,,
+,Re-inspection Magnetic,Magnetic Powder_Testing Unit,object,,
+,,Magnetic Powder_Inspection Personnel,object,,
+,,Magnetic Powder_Test Date,date,,
+,,Magnetic Powder_Detection Part,object,Weld seam and heat affected zone,Weld seam and heat affected zone
+,,Magnetic Powder_Detection Length,float64,3828,3828
+,,Magnetic Powder_Evaluation Standard,object,SY/T4109-2020,SY/T4109-2020
+,,Magnetic Powder_Test Result Evaluation Date,date,,
+,,Magnetic Powder_Assessment Unit,object,,
+,,Magnetic Powder_Evaluator,object,,
+,,Magnetic Powder_Assessment Results,object," Defect 1: .mm, no recordable defects, ., none",No documented defects
+,,Magnetic Powder_Assessment Level,object,,
+,,Magnetic Powder_Is it qualified?,object,qualified,qualified
+,,Magnetic Powder_Welding Joint Defect Type,object,No record deficiencies,No record deficiencies
+,,Magnetic Powder_Position of Welding Joint Defect 1,object,,
+,,Magnetic powder_length of welding joint defect 1 (mm),object,,
+,,Magnetic Powder_Welding Joint Defect Type 2,object,,
+,,Magnetic Powder_Position of Welding Joint Defect 2,object,,
+,,Magnetic powder_length of welding joint defect 2 (mm),float64,,
+,,Magnetic Powder_Welding Joint Defect Type 3,object,,
+,,Magnetic Powder_Position of Welding Joint Defect 3,object,,
+,,Magnetic powder_length of welding joint defect 3 (mm),float64,,
+, Re-inspection Penetration,Penetration_Detection Unit,object,,
+,,Penetration_Inspection Personnel,object,,
+,,Penetration_Test Date,date,,
+,,Penetration_Detection Part,object,,
+,,Penetration_Detection Length,object,,
+,,Penetration_Assessment Criteria,object,,
+,,Penetration_test result evaluation date,date,,
+,,Penetration_Assessment Unit,object,,
+,,penetration_rater,object,,
+,,Penetration_Assessment results,object,,
+,,Penetration_Rating,object,,
+,,Penetration_Is it qualified?,object,,
+,,Penetration_Welding joint defect type,object,,
+,,Penetration_position of welding joint defect 1,object,,
+,,Penetration_length of welding joint defect 1 (mm),float64,,
+,,Penetration_Welding joint defect type 2,object,,
+,,Penetration_Position of welding joint defect 2,object,,
+,,Penetration_length of welding joint defect 2 (mm),float64,,
+,,Penetration_weld joint defect type 3,object,,
+,,Penetration_Position of welding joint defect 3,object,,
+,,Penetration_Length of welding joint defect 3 (mm),float64,,
+,ApplicabilityInf,Evaluation unit,object,,
+,,Review date,date,,
+,,Evaluation reference standards,object,,
+,,Whether it is suitable for use,object,,yes
+,,Suitability evaluation_recommended disposal measures,object,,
+,Design compliance information,Whether it is located in a pipe section that does not meet the design requirements to be evaluated,object,,
+,Risk Info,Risk assessment or integrity assessment report,object,,
+,,Daily risk management and control measures,object,,
+,,Risk score based on 2020V1 model,float64,188.96,151.1
+,,Risk score based on 2020V2 model,float64,,

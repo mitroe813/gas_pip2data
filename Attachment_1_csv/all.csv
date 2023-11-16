@@ -1,0 +1,388 @@
+表格 1
+,secondary class feature,primary feature columns,type,Example 1,Example 2
+Construction,Make-up Info,years,date,2022,2022
+,,planning period,object,1,1
+,,bid section,object,2,4
+,Basic Info,Pipe name,object,xxx,xxx
+,,Welding joint number during construction period,object,xxx,xxx
+,,Branch name,object,xxx,xxx
+,,Upstream station/valve room,object,xxx,xxx
+,,Downstream station/valve room,object,xxx,xxx
+,,Construction bid section,object,xxx,xxx
+,,Construction station mileage,float64,xxx,xxx
+,,Upstream pipe number,object,xxx,xxx
+,,Downstream pipe number,object,xxx,xxx
+,,Construction record downstream pipe section type,object,Elbow/Elbow,Straight
+,,Construction record elbow pipe angle,float64,7.133,0
+,,Construction records downstream pipe section length,float64,12.13,11.713
+,,Construction records downstream pipe diameter,float64,xxx,xxx
+,,Construction records downstream pipe section wall thickness,float64,twenty two,18.4
+,,Welding type,object,Semi-automatic welding,Semi-automatic welding
+,,Welding joint type,object,Ordinary mouth,dead mouth
+,,Chrysostom or not,object,no,no
+,,Whether it is connected to the head or mouth,object,no,no
+,,Is it dead talk?,object,no,yes
+,,Whether to repair the port,object,no,no
+,,Whether to bend the pipe,object,yes,no
+,,Whether to change the wall thickness?,object,no,no
+,,Welding date,date,xxx,xxx
+,,Construction unit,object,xxx,xxx
+,,construction unit,object,xxx,xxx
+,,Name of construction team leader,object,xxx,xxx
+,,Welder name,object,xxx,xxx
+,,Welder number,object,xxx,xxx
+,,Welding procedure specification number,object,xxx,xxx
+,,Basic information_Testing unit,object,xxx,xxx
+,,Basic information_inspector,object,xxx,xxx
+,,Basic information_test date,date,xxx,xxx
+,,Construction period radiographic inspection report number,object,xxx,xxx
+,,Ultrasonic inspection report number during construction period,object,xxx,xxx
+,,Fully automatic ultrasonic inspection report number during construction period,object,xxx,xxx
+,,Sealing materials,object,xxx,xxx
+,,Supervision unit,object,xxx,xxx
+,,Data checking unit,object,xxx,xxx
+,,Person in charge of data investigation,object,xxx,xxx
+,,Is it suspected of being a black mouth?,object,no,no
+,,Suspected black mouth excavation verification results,object,xxx,xxx
+,,Is it suspected to be a public film?,object,xxx,xxx
+,,Are the suspected public films consistent with the re-examination negatives?,object,xxx,xxx
+,,Topographic information that can be found in the as-built data,object,xxx,xxx
+,,Burial depth information/meter recorded in the completion data,float64,xxx,xxx
+,Radiation Info,Radiographic weld number,object,xxx,xxx
+,,Upstream pipemaking weld type identified on negative,object,xxx,xxx
+,,Downstream pipemaking weld type identified on negative,object,xxx,xxx
+,,Spacing MM between intersection points of welds identified on the negative film,float64,xxx,xxx
+,,Are the spiral welds of the upstream and downstream steel pipes identified on the negative film parallel?,object,xxx,xxx
+,,Wall thickness recorded by the testing unit 1 (MM),float64,18.4,18.4
+,,Wall thickness recorded by the testing unit 2 (MM),float64,18.4,18.4
+,,Radiographic detection_One transillumination lengthMM,float64,3828,3828
+,,Ray detection_Image quality index,float64,11,11
+,,Radiographic Inspection_Assessment Standards,object,xxx,xxx
+,,Radiographic Inspection_Construction Period Assessment Unit,object,xxx,xxx
+,,Radiographic Inspection_Construction Period Assessor,object,xxx,xxx
+,,Construction period assessment date,date,xxx,xxx
+,,Radiographic inspection_Construction period assessment results,object,3500 air holes 7 points,2350 air hole 9 o'clock
+,,Construction period assessment grade,object,2,2
+,,Radiographic Inspection_Inspection Period Review Unit,object,xxx,xxx
+,,Radiographic Inspection_Re-evaluator during the investigation period,object,xxx,xxx
+,,Radiographic Inspection_Inspection Period Review Date,date,xxx,xxx
+,,Radiographic testing_Re-evaluation results during the screening period,object,3500 air holes 7 points,2350 air hole 9 o'clock
+,,Radiographic Inspection_Re-evaluation Level during the Inspection Period,object,2,2
+,,Does the original film have cracks?,object,xxx,xxx
+,,Radiographic testing_Qualitative results of re-evaluation during the investigation period,object,Same as original review,Same as original review
+,,Radiographic inspection_qualification,object,yes,yes
+,,Is there an abnormality in the root fusion line?,object,no,no
+,,Are there any traces of repair welding?,object,no,no
+,,Is there any doubt about the welding joint in the film?,object,no,no
+,,Radiographic Inspection_Re-evaluation and Recommended Disposal Measures,object,none,none
+,Auto Ultrasonic Info,Fully automatic ultrasonic detection of weld numbering,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Testing unit,object,xxx,xxx
+,,Fully automatic ultrasonic testing_inspection personnel,object,xxx,xxx
+,,Fully automatic ultrasonic testing_testing date,date,xxx,xxx
+,,Fully automatic ultrasonic testing_detection length,float64,xxx,xxx
+,,Fully automatic ultrasonic testing_evaluation standards,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Construction period assessment unit,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Construction period evaluator,object,xxx,xxx
+,,AUT map construction period assessment date,date,xxx,xxx
+,,Fully automatic ultrasonic testing_Construction period assessment results,object,xxx,xxx
+,,Fully automatic ultrasonic testing_construction period assessment grade,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Inspection period re-evaluation unit,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Re-evaluator during the screening period,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Inspection period re-evaluation date,date,xxx,xxx
+,,Fully automatic ultrasonic testing_Re-evaluation results during the screening period,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Re-evaluation level during the investigation period,object,xxx,xxx
+,,Fully automatic ultrasonic testing_Qualitative results of re-evaluation during the investigation period,object,xxx,xxx
+,,Fully automatic ultrasonic testing_qualification,object,xxx,xxx
+,,Fully automatic ultrasonic testing_re-evaluation recommended disposal measures,object,xxx,xxx
+,High Consequence Info,High Consequence Area Number,object,xxx,xxx
+,,high consequence area type,object,xxx,xxx
+,,high consequence area level,object,xxx,xxx
+,Original Internal Info,Inspection starting station,object,xxx,xxx
+,,Inspection terminal site,object,xxx,xxx
+,,Internal mileage detection,float64,xxx,xxx
+,,Internal inspection ring weld number,float64,xxx,xxx
+,,Internal detection of downstream pipe section type,object,Cold bent pipe,Straight
+,,Internal detection of elbow elbow angle,float64,xxx,xxx
+,,Internal detection of downstream pipe section length,float64,12.15,11.662
+,,Internal detection of downstream pipe diameter,float64,xxx,xxx
+,,Internal detection of downstream pipe section wall thickness,float64,twenty two,18.4
+,,Whether there is a miter,object,xxx,xxx
+,,Bending strain % detected by IMU,float64,xxx,xxx
+,,Is there any geometric deformation in the downstream pipe section?,object,xxx,xxx
+,,Geometric deformation type,object,xxx,xxx
+,Signal Review Info,Internal testing date,date,xxx,xxx
+,,Internal testing unit,object,xxx,xxx
+,,upstream reference point,object,xxx,xxx
+,,Relative upstream reference point distance (M),float64,xxx,xxx
+,,Feature description,object,GWAN,WELD
+,,Whether to add new exceptions,object,no,
+,,unusual severity,object,serious,
+,,Circumferential length (MM),float64,3822,
+,,depth(%),float64,xxx,xxx
+,,Abnormal clock position (HRS:MINS),object,11:42,
+,,Internal heartbeat review date,date,xxx,xxx
+,,Internal detection signal review personnel,object,xxx,xxx
+,,Upstream pipemaking weld type identified on internal detection signal,object,Straight weld,spiral weld
+,,The clock position of the intersection point between the upstream pipemaking weld and the girth weld identified on the internal detection signal,object,8:38;@,11:56;@
+,,Downstream pipemaking weld type identified on internal detection signal,object,other,spiral weld
+,,The clock position of the intersection point of the downstream pipemaking weld and the girth weld identified on the internal detection signal,object,,8:34;@
+,,The circumferential distance MM between the two intersection points identified on the inner detection signal,float64,,1073
+,,Check whether the upstream and downstream pipe-making spiral welds identified on the internal detection signal are parallel.,object,unknown,yes
+,Film Digitization Info,Has the film been digitized?,object,xxx,xxx
+,,film digitizing unit,object,xxx,xxx
+,,Film digitizer,object,xxx,xxx
+,,Film digitization date,date,xxx,xxx
+,,digital piece number,object,xxx,xxx
+,Period Coordinates,Coordinate System,object,xxx,xxx
+,,Zone number,object,6 degree zone,6 degree zone
+,,central meridian,float64,117,117
+,Elevation Info,Pipe top elevation,object,1551.615,1554.569
+,,elevation datum,object,xxx,xxx
+,Load Info,Design pressure/MPa,float64,10,10
+,,Operating pressure/MPa,float64,8.368,8.368
+,,Earth disaster risk level,object,xxx,xxx
+,,Earth disaster type,object,xxx,xxx
+,,Is there any third-party stacking disturbance near the welding joint?,object,xxx,xxx
+Inspection,Re-inspection_Radiation,Radiographic re-examination_Testing unit,object,xxx,xxx
+,,Radiographic re-inspection_inspection personnel,object,xxx,xxx
+,,Radiographic re-examination_test date,date,xxx,xxx
+,,Radiographic re-examination_One transillumination length MM,float64,766,766
+,,Radiographic reexamination_Image quality index,float64,10,11
+,,Radiographic re-examination_evaluation standards,object,xxx,xxx
+,,Film evaluation date,date,xxx,xxx
+,,Radiographic re-examination_assessment unit,object,xxx,xxx
+,,Radiographic reexamination_evaluator,object,xxx,xxx
+,,Radiographic re-examination_assessment results,object," Defect 1: 1730mm, missing strip, 3mm, Ⅱ Defect 2: 2500-2900mm, concave, 400mm, Ⅱ. . . Defect 26: 1350mm, round defect, 1 point mm, Ⅰ"," Defect 1: 135mm, round missing, 13mm, Ⅲ Defect 2: 2350mm, round missing, 11mm, Ⅲ. . . Defect 37: 3790mm, round defect, 2mm, Ⅰ"
+,,Radiographic re-examination_assessment level,object,Ⅱ,Ⅲ
+,,Radiographic re-examination_whether it is qualified,object,qualified,Unqualified
+,,Radiographic re-examination_recommended treatment measures,object,xxx,xxx
+,,Radiographic re-inspection_Welding joint defect types,object,missing items,round and missing
+,,Radiographic re-inspection_position of welding joint defect 1,object,1570,135mm
+,,Radiographic re-inspection_length of welding joint defect 1 (mm),float64,3mm,13
+,,Radiographic re-inspection_Welding joint defect type 2,object,missing items,round and missing
+,,Radiographic re-inspection_position of welding joint defect 2,object,1730,2350mm
+,,Radiographic re-inspection_length of welding joint defect 2 (mm),float64,3mm,11
+,,Radiographic re-inspection_Welding joint defect type 3,object,round and missing,round and missing
+,,Radiographic re-inspection_position of welding joint defect 3,object,1000,990mm
+,,Radiographic re-inspection_length of welding joint defect 3 (mm),float64,6 o'clock,5
+,Re-inspection_Ultrasound,Ultrasound re-examination_Testing unit,object,xxx,xxx
+,,Ultrasound re-examination_testing personnel,object,xxx,xxx
+,,Ultrasound re-examination_test date,date,xxx,xxx
+,,Ultrasound re-examination_testing length,float64,3828,3828
+,,Ultrasound re-examination_evaluation standards,object,xxx,xxx
+,,Ultrasound re-examination_Test result evaluation date,date,xxx,xxx
+,,Ultrasound re-examination_assessment unit,object,xxx,xxx
+,,Ultrasound re-examination_evaluator,object,xxx,xxx
+,,Ultrasound re-examination_assessment results,object," Defect 1: .mm, no recordable defect, .mm, .mm, .SL+_dB, Ⅰ"," Defect 1: None, no record defects, none, none, none, Ⅰ"
+,,Ultrasound re-examination_assessment level,object,Ⅰ,Ⅰ
+,,Ultrasound re-examination_whether it is qualified,object,qualified,qualified
+,,Ultrasound re-examination_recommended treatment measures,object,xxx,xxx
+,,Ultrasonic re-inspection_Welding joint defect types,object,No record deficiencies,No record deficiencies
+,,Ultrasonic re-inspection_position of welding joint defect 1,object,xxx,xxx
+,,Ultrasonic re-inspection_length of welding joint defect 1 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_height of welding joint defect 1 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_Depth of welding joint defect 1 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_Welding joint defect type 2,object,xxx,xxx
+,,Ultrasonic re-inspection_position of welding joint defect 2,object,xxx,xxx
+,,Ultrasonic re-inspection_length of welding joint defect 2 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_height of welding joint defect 2 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_Depth of welding joint defect 2 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_Welding joint defect type 3,object,xxx,xxx
+,,Ultrasonic re-inspection_position of welding joint defect 3,object,xxx,xxx
+,,Ultrasonic re-inspection_length of welding joint defect 3 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_height of welding joint defect 3 (mm),float64,xxx,xxx
+,,Ultrasonic re-inspection_Depth of welding joint defect 3 (mm),float64,xxx,xxx
+,Re-inspection TOFD,TOFD re-inspection_Testing unit,object,xxx,xxx
+,,TOFD re-inspection_inspection personnel,object,xxx,xxx
+,,TOFD re-inspection_test date,date,xxx,xxx
+,,TOFD re-inspection_detection length,object,xxx,xxx
+,,TOFD re-inspection_evaluation standards,object,xxx,xxx
+,,TOFD re-inspection_Test result evaluation date,date,xxx,xxx
+,,TOFD re-inspection_assessment unit,object,xxx,xxx
+,,TOFD re-inspection_evaluator,object,xxx,xxx
+,,TOFD re-inspection_assessment results,object,No documented defects,No documented defects
+,,TOFD re-inspection_assessment level,object,Ⅰ,Ⅰ
+,,TOFD re-inspection_whether it is qualified,object,qualified,qualified
+,,TOFD re-inspection_recommended disposal measures,object,xxx,xxx
+,,TOFD re-inspection_Welding joint defect type,object,xxx,xxx
+,,TOFD re-inspection_position of welding joint defect 1,object,xxx,xxx
+,,TOFD re-inspection_length of welding joint defect 1 (mm),float64,xxx,xxx
+,,TOFD re-inspection_height of welding joint defect 1 (mm),float64,xxx,xxx
+,,TOFD re-inspection_depth of welding joint defect 1 (mm),float64,xxx,xxx
+,,TOFD re-inspection_Welding joint defect type 2,object,xxx,xxx
+,,TOFD re-inspection_position of welding joint defect 2,object,xxx,xxx
+,,TOFD re-inspection_length of welding joint defect 2 (mm),float64,xxx,xxx
+,,TOFD re-inspection_height of welding joint defect 2 (mm),float64,xxx,xxx
+,,TOFD re-inspection_depth of welding joint defect 2 (mm),float64,xxx,xxx
+,,TOFD re-inspection_Welding joint defect type 3,object,xxx,xxx
+,,TOFD re-inspection_position of welding joint defect 3,object,xxx,xxx
+,,TOFD re-inspection_length of welding joint defect 3 (mm),float64,xxx,xxx
+,,TOFD re-inspection_height of welding joint defect 3 (mm),float64,xxx,xxx
+,,TOFD re-inspection_depth of welding joint defect 3 (mm),float64,xxx,xxx
+,Re-inspection Phased Array,Phased Array_Detection Unit,object,xxx,xxx
+,,Phased Array_Inspection Personnel,object,xxx,xxx
+,,Phased Array_Detection Date,date,xxx,xxx
+,,Phased array_detection length,object,xxx,xxx
+,,Phased Array_Evaluation Standard,object,xxx,xxx
+,,Phased Array_Test result evaluation date,date,xxx,xxx
+,,Phased Array_Assessment Unit,object,xxx,xxx
+,,Phased Array_Evaluator,object,xxx,xxx
+,,Phased array_evaluation results,object,No documented defects,No documented defects
+,,Phased Array_Assessment Level,object,Ⅰ,Ⅰ
+,,Phased Array_Is it qualified?,object,qualified,qualified
+,,Phased Array_Recommended Disposal Measures,object,xxx,xxx
+,,Phased Array_Welding Joint Defect Type,object,xxx,xxx
+,,Phased array_position of welding joint defect 1,object,xxx,xxx
+,,Phased array_length of welding joint defect 1 (mm),float64,xxx,xxx
+,,Phased array_height of welding joint defect 1 (mm),float64,xxx,xxx
+,,Phased array_Depth of welding joint defect 1 (mm),float64,xxx,xxx
+,,Phased Array_Welding Joint Defect Type 2,object,xxx,xxx
+,,Phased array_position of welding joint defect 2,object,xxx,xxx
+,,Phased array_length of welding joint defect 2 (mm),float64,xxx,xxx
+,,Phased array_height of welding joint defect 2 (mm),float64,xxx,xxx
+,,Phased array_Depth of welding joint defect 2 (mm),float64,xxx,xxx
+,,Phased Array_Welding Joint Defect Type 3,object,xxx,xxx
+,,Phased array_position of welding joint defect 3,object,xxx,xxx
+,,Phased array_length of welding joint defect 3 (mm),float64,xxx,xxx
+,,Phased array_Height of welding joint defect 3 (mm),float64,xxx,xxx
+,,Phased array_Depth of welding joint defect 3 (mm),float64,xxx,xxx
+,Re-inspection Magnetic,Magnetic Powder_Testing Unit,object,xxx,xxx
+,,Magnetic Powder_Inspection Personnel,object,xxx,xxx
+,,Magnetic Powder_Test Date,date,xxx,xxx
+,,Magnetic Powder_Detection Part,object,Weld seam and heat affected zone,Weld seam and heat affected zone
+,,Magnetic Powder_Detection Length,float64,3828,3828
+,,Magnetic Powder_Evaluation Standard,object,xxx,xxx
+,,Magnetic Powder_Test Result Evaluation Date,date,xxx,xxx
+,,Magnetic Powder_Assessment Unit,object,xxx,xxx
+,,Magnetic Powder_Evaluator,object,xxx,xxx
+,,Magnetic Powder_Assessment Results,object," Defect 1: .mm, no recordable defects, ., none",No documented defects
+,,Magnetic Powder_Assessment Level,object,xxx,xxx
+,,Magnetic Powder_Is it qualified?,object,qualified,qualified
+,,Magnetic Powder_Welding Joint Defect Type,object,No record deficiencies,No record deficiencies
+,,Magnetic Powder_Position of Welding Joint Defect 1,object,xxx,xxx
+,,Magnetic powder_length of welding joint defect 1 (mm),object,xxx,xxx
+,,Magnetic Powder_Welding Joint Defect Type 2,object,xxx,xxx
+,,Magnetic Powder_Position of Welding Joint Defect 2,object,xxx,xxx
+,,Magnetic powder_length of welding joint defect 2 (mm),float64,xxx,xxx
+,,Magnetic Powder_Welding Joint Defect Type 3,object,xxx,xxx
+,,Magnetic Powder_Position of Welding Joint Defect 3,object,xxx,xxx
+,,Magnetic powder_length of welding joint defect 3 (mm),float64,xxx,xxx
+, Re-inspection Penetration,Penetration_Detection Unit,object,xxx,xxx
+,,Penetration_Inspection Personnel,object,xxx,xxx
+,,Penetration_Test Date,date,xxx,xxx
+,,Penetration_Detection Part,object,xxx,xxx
+,,Penetration_Detection Length,object,xxx,xxx
+,,Penetration_Assessment Criteria,object,xxx,xxx
+,,Penetration_test result evaluation date,date,xxx,xxx
+,,Penetration_Assessment Unit,object,xxx,xxx
+,,penetration_rater,object,xxx,xxx
+,,Penetration_Assessment results,object,xxx,xxx
+,,Penetration_Rating,object,xxx,xxx
+,,Penetration_Is it qualified?,object,xxx,xxx
+,,Penetration_Welding joint defect type,object,xxx,xxx
+,,Penetration_position of welding joint defect 1,object,xxx,xxx
+,,Penetration_length of welding joint defect 1 (mm),float64,xxx,xxx
+,,Penetration_Welding joint defect type 2,object,xxx,xxx
+,,Penetration_Position of welding joint defect 2,object,xxx,xxx
+,,Penetration_length of welding joint defect 2 (mm),float64,xxx,xxx
+,,Penetration_weld joint defect type 3,object,xxx,xxx
+,,Penetration_Position of welding joint defect 3,object,xxx,xxx
+,,Penetration_Length of welding joint defect 3 (mm),float64,xxx,xxx
+,ApplicabilityInf,Evaluation unit,object,xxx,xxx
+,,Review date,date,xxx,xxx
+,,Evaluation reference standards,object,xxx,xxx
+,,Whether it is suitable for use,object,,yes
+,,Suitability evaluation_recommended disposal measures,object,xxx,xxx
+,Design compliance information,Whether it is located in a pipe section that does not meet the design requirements to be evaluated,object,xxx,xxx
+,Risk Info,Risk assessment or integrity assessment report,object,xxx,xxx
+,,Daily risk management and control measures,object,xxx,xxx
+,,Risk score based on 2020V1 model,float64,188.96,151.1
+,,Risk score based on 2020V2 model,float64,xxx,xxx
+Excavation/Repair,Re-inspect Plan Info,Planned start date for excavation,date,xxx,xxx
+,,Planned completion date of excavation,date,xxx,xxx
+,,Planned completion date of testing,date,xxx,xxx
+,,Planned date for completion of test results assessment,date,xxx,xxx
+,,Reason for not digging,object,xxx,xxx
+,Excavation Info,Reason for excavation,object,xxx,xxx
+,,Province,object,xxx,xxx
+,,administrative location,object,xxx,xxx
+,,Excavation_Coordinate System,object,xxx,xxx
+,,Excavation_Pipe top elevation (M),float64,1516.036,410.8
+,,Excavation_elevation datum,object,xxx,xxx
+,,Actual travel reference point,object,xxx,xxx
+,,Actual distance relative to upstream reference point (M),float64,+1165.244,+487.722
+,,Excavation start date,date,xxx,xxx
+,,Excavation unit,object,xxx,xxx
+,,Excavation unit manager,object,xxx,xxx
+,,Excavation supervision unit,object,xxx,xxx
+,,Excavation_Side station supervision,object,xxx,xxx
+,,Excavation_Operating Unit Supervisor,object,xxx,xxx
+,,Date of completion of excavation,date,xxx,xxx
+,,Pipe body weld number after excavation,object,xxx,xxx
+,,terrain,object,plain,plain
+,,Is there any undulations in the terrain?,object,none,none
+,,ground cover,object,crops,crops
+,,Surroundings,object,farmland,farmland
+,,Completion data burial depth/meter,float64,xxx,xxx
+,,Actual burial depth/meter,float64,1.5,2.3
+,,Soil quality of pipe ditch,object,loess,loess
+,,Are there obvious changes in soil quality upstream and downstream?,object,no,no
+,,Are there any hydraulic protection measures?,object,no,no
+,,Structural form of hydraulic protection measures,object,xxx,xxx
+,,Is the pipe trench backfilled tightly?,object,yes,yes
+,,Hanging length of pipe without backfilling/m,float64,0,0
+,,"Are there any boulders, rocks, etc. that exceed the standard (particle size >250MM) in the backfill soil?",object,no,no
+,,The largest particle size of boulders and rocks in backfill soil (mm),float64,100,3
+,,Description of other non-standard situations,object,xxx,xxx
+,Weld Seam,Investigation time,date,xxx,xxx
+,,Soil type,object,loess,loess
+,,Groundwater situation,object,There is no groundwater around the pipeline,There is no groundwater around the pipeline
+,,Joint type,object,Heat shrink tape,Heat shrink tape
+,,Appearance of patching - whether there is any damage,object,none,none
+,,Appearance of patching - whether there are wrinkles,object,none,none
+,,Appearance of patching - whether there is warping or not,object,none,none
+,,Appearance of patching - whether there are bubbles,object,none,none
+,,Appearance of patching - whether there is hollow bulge,object,none,none
+,,Appearance of the patch - whether the glue overflow at the edge is even,object,yes,yes
+,,Appearance of patching - 15kV spark leak detection,float64,15,15
+,,Width of upstream overlap area (cm),float64,12,20
+,,Downstream overlap zone width (cm),float64,12,20
+,,3-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,11,40
+,,9-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,10,40
+,,12-point upstream (or downstream) overlap zone peeling strength (N/cm),float64,20,50
+,,Peel strength of 3-point pipe body area (N/cm),float64,15,40
+,,Peel strength of pipe body area at 9 points (N/cm),float64,10,50
+,,Peel strength of pipe body area at 12 points (N/cm),float64,20,45
+,,Is there primer in the overlap area?,object,have,none
+,,Is there any floating rust on the pipe body?,object,have,have
+,,Cathodic protection potential (VCSE),float64,1.9,-1.24
+,Re-inspection_Appearance,Upstream steel pipe wall thickness MM,float64,22,18.4
+,,Downstream steel pipe wall thickness MM,float64,22,18.4
+,,Upstream pipemaking weld type,object,Straight weld,spiral weld
+,,Downstream pipemaking weld types,object,Straight weld,spiral weld
+,,Spacing between weld intersection points MM,float64,870,1073
+,,Are the spiral welds of upstream and downstream steel pipes parallel?,object,yes,no
+,,Yugao situation,object, Yugao situation: 1:00-0.8 2:00-1.2 3:00-1.5 4:00-1.2 5:00-3 6:00-2 7:00-2 8:00-1.2 9:00-1.8 10 :00-1 11:00-1.2 12:00-1.2,Yugao situation: 1:00-1.6 2:00-1.2 3:00-1.4 4:00-1.2 5:00-1.4 6:00-1.2 7:00-1.2 8:00-0.9 9:00-1.2 10 :00-0.8 11:00-0.9 12:00-1.2
+,,Maximum reinforcement height MM,float64,3,1.6
+,,Wrong side situation,object, Wrong variables: 1:00-0.2 2:00-0 3:00-0 4:00-0 5:00-0.8 6:00-0.2 7:00-0 8:00-0 9:00-0.5 10: 00-0.2 11:00--0.5 12:00-0.2, Wrong variables: 1:00-0.8 2:00-0.7 3:00-1 4:00-0.6 5:00-0.7 6:00-0.6 7:00-0.7 8:00-0.6 9:00-0.8 10: 00-0.6 11:00-0.7 12:00-0.8
+,,Maximum wrong side MM,float64,0.8,1
+,,Detailed description of appearance defects,object,qualified,qualified
+,,Appearance re-inspection_whether it is qualified,object,qualified,qualified
+,,Appearance re-inspection_Welding joint defect types,object,none,none
+,Repair Info,Determine the fix,object,xxx,xxx
+,,repair unit,object,xxx,xxx
+,,Restoration unit manager,object,xxx,xxx
+,,Restoration supervision unit,object,xxx,xxx
+,,Repair_Side station supervision,object,xxx,xxx
+,,Repair_Operating Unit Supervisor,object,xxx,xxx
+,,Repair date,date,xxx,xxx
+,,Repair status,object,xxx,xxx
+,,New weld number,object,xxx,xxx
+,Backfill Info,backfill date,date,xxx,xxx
+,Elevation Depth,X,float64,xxx,xxx
+,,Y,float64,xxx,xxx
+,,ground elevation,float64,xxx,xxx
+,,Pipe top elevation,float64,xxx,xxx
+,,Pipe top burial depth (m),float64,2.2,3.4
+label,Overall results of re-inspection and re-evaluation,Overall results of resume shooting,object,qualified,Unqualified
+,,Total defect types,object,Striped/concave/rounded,round and missing
