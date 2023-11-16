@@ -13,7 +13,7 @@ This repository contains data examples related to natural gas pipelines, present
 
 The dataset is organized into three primary stages of the natural gas pipeline lifecycle, each with its respective secondary class features. 
 
-![2-1-2 Intro Flow Diagram](2-1-2intro_flow.pdf)
+![2-1-2 Intro Flow Diagram](2-1-2intro_flow.jpg)
 
 Below is a detailed breakdown of the data categories and their corresponding sub-headings:
 
